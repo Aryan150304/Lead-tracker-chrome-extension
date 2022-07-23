@@ -1,0 +1,77 @@
+body {
+
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 400px;
+  background-color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3D7F67;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button {
+  background:  #3D7F67;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #3D7F67;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+}
+
+button:hover{
+  background-color: #1A4031;
+}
+button:active{
+  background:  #3D7F67;
+}
+
+#delete-btn {
+  background:#eff2f1;
+  color: #3D7F67;
+}
+
+#delete-btn:hover{
+  color: white;
+  background-color: #3D7F67;
+  border: 1px solid #3D7F67;
+}
+
+#delete-btn:active{
+  background-color: #1A4031;
+  color: white;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: #1A4031;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+li{
+  margin-bottom: 1rem;
+  background-color: #eff2f1;
+  border-radius: 10px;
+
+}
